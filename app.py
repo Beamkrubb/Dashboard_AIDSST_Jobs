@@ -1,4 +1,4 @@
-﻿"""
+"""
 Main Application Entry Point: AI, Data Science & Statistics Workforce & Skill Mismatch Dashboard
 Interactive Analytics & Linked Cross-Filtering Engine
 """
@@ -366,4 +366,4 @@ def export_tab4_csv(n_clicks, countries, role, exp_levels, year_range):
 
 if __name__ == "__main__":
     print("Starting DS/AI/Stats Workforce Analytics Dashboard on http://127.0.0.1:8050/ ...")
-    app.run_server(host="127.0.0.1", port=8050, debug=False)
+    app.run(host="127.0.0.1", port=8050, debug=False)
