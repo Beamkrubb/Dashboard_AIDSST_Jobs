@@ -1,0 +1,15 @@
+program_name,degree,country,alignment_index,y1_emp_rate,avg_starting_salary_usd
+B.Sc. Data Science & Analytics (Chula),B.Sc.,Thailand,88.5,93.2,28500
+B.Sc. Artificial Intelligence (KKU),B.Sc.,Thailand,86.0,91.5,27000
+B.Sc. Applied Statistics (Mahidol),B.Sc.,Thailand,71.5,81.0,22500
+B.Sc. Computer Science & Big Data (KU),B.Sc.,Thailand,82.0,88.0,25500
+B.Sc. Data Science & ML (CMU),B.Sc.,Thailand,84.0,89.5,26000
+M.Sc. Artificial Intelligence (Chula),M.Sc.,Thailand,92.5,96.8,38000
+M.Sc. Data Science & Analytics (NIDA),M.Sc.,Thailand,87.0,92.0,34000
+M.Sc. Applied Statistics (TU),M.Sc.,Thailand,68.0,79.5,24000
+Ph.D. Data Science & AI (KKU),Ph.D.,Thailand,90.0,98.0,45000
+B.Sc. Data Science (UC Berkeley),B.Sc.,United States,94.0,95.5,115000
+M.Sc. Machine Learning (CMU US),M.Sc.,United States,97.0,98.5,142000
+B.Sc. Stats & ML (NUS),B.Sc.,Singapore,91.0,94.0,78000
+M.Sc. Computing AI/ML (Imperial),M.Sc.,United Kingdom,93.0,96.0,92000
+M.Sc. Data Engineering (TUM),M.Sc.,Germany,91.5,94.5,86000

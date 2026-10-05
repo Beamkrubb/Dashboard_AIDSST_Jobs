@@ -1,0 +1,197 @@
+﻿/* Custom CSS for DS/AI/Stats Workforce Analytics Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --bg-canvas: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-surface-light: #334155;
+    --border-color: #334155;
+    --accent-cyan: #38bdf8;
+    --accent-indigo: #818cf8;
+    --accent-green: #22c55e;
+    --accent-amber: #f59e0b;
+    --accent-red: #ef4444;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+body {
+    background-color: var(--bg-canvas) !important;
+    color: var(--text-main) !important;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* App Header & Hero */
+.app-header {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(15, 23, 42, 0.95) 100%);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+}
+
+/* Filter Panel */
+.filter-panel {
+    background-color: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(51, 65, 85, 0.7) !important;
+}
+
+.filter-label {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+/* Dropdown & Inputs Styling */
+.custom-dropdown .Select-control {
+    background-color: #0f172a !important;
+    border: 1px solid #334155 !important;
+    color: #f8fafc !important;
+    border-radius: 6px !important;
+}
+
+.custom-dropdown .Select-menu-outer {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #f8fafc !important;
+    z-index: 9999 !important;
+}
+
+.custom-dropdown .Select-value-label {
+    color: #38bdf8 !important;
+}
+
+.custom-dropdown .Select-placeholder {
+    color: #64748b !important;
+}
+
+.custom-radio-group label {
+    color: #cbd5e1 !important;
+    font-size: 0.85rem;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.custom-radio-group input[type="radio"] {
+    accent-color: #38bdf8;
+    margin-right: 4px;
+}
+
+/* KPI Cards */
+.kpi-card {
+    background: linear-gradient(145deg, #1e293b 0%, #152033 100%);
+    border: 1px solid rgba(51, 65, 85, 0.8);
+    border-radius: 10px;
+    padding: 1.25rem 1.4rem;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.kpi-card:hover {
+    border-color: rgba(56, 189, 248, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 0 15px rgba(56, 189, 248, 0.15);
+}
+
+.kpi-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+}
+
+.kpi-icon {
+    font-size: 1.25rem;
+}
+
+.kpi-value {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+}
+
+.kpi-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.kpi-subtitle {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+/* Chart Cards */
+.chart-card {
+    background-color: #1e293b;
+    border: 1px solid rgba(51, 65, 85, 0.8);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.2s ease;
+}
+
+.chart-card:hover {
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+.chart-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #f8fafc;
+    letter-spacing: -0.01em;
+}
+
+/* Tab Navigation Styling */
+.nav-tabs {
+    border-bottom: 2px solid #334155 !important;
+    gap: 8px;
+}
+
+.nav-tabs .nav-link {
+    background-color: #1e293b !important;
+    color: #94a3b8 !important;
+    border: 1px solid #334155 !important;
+    border-bottom: none !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 0.75rem 1.4rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #f8fafc !important;
+    background-color: #243247 !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #0f172a !important;
+    color: #38bdf8 !important;
+    border: 1px solid #38bdf8 !important;
+    border-bottom: 2px solid #0f172a !important;
+    box-shadow: 0 -4px 12px rgba(56, 189, 248, 0.15) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+}

@@ -1,0 +1,21 @@
+skill,category,type,supply_score,overall_demand_score,demand_ai,demand_ds,demand_stat,demand_de,quadrant,strategic_action,gap_score
+Python,Programming & Languages,Hard Skill,96.0,91.9,94.0,98.0,75.0,88.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-4.1
+SQL & Relational DBs,Data Management,Hard Skill,92.0,84.8,72.0,95.0,70.0,96.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-7.2
+PyTorch / Deep Learning,AI & Modeling,Hard Skill,58.0,65.8,92.0,78.0,32.0,25.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,7.8
+RAG & LLM Application,AI & Modeling,Hard Skill,28.0,63.3,89.0,68.0,18.0,42.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,35.3
+MLOps & CI/CD,Infrastructure & Cloud,Hard Skill,24.0,66.8,84.0,62.0,12.0,80.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,42.8
+Cloud Platforms (AWS/GCP/Azure),Infrastructure & Cloud,Hard Skill,45.0,71.5,76.0,70.0,28.0,92.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,26.5
+Cloud Data Warehouses (Snowflake/BigQuery),Data Management,Hard Skill,35.0,58.8,45.0,66.0,22.0,89.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,23.8
+Spark & Big Data Processing,Data Management,Hard Skill,42.0,62.7,55.0,64.0,25.0,94.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,20.7
+Applied Regression & GLM,Math & Statistics,Hard Skill,90.0,61.8,48.0,82.0,95.0,30.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-28.2
+Time Series Forecasting,Math & Statistics,Hard Skill,68.0,63.6,62.0,74.0,88.0,35.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-4.4
+R Programming,Programming & Languages,Hard Skill,78.0,39.4,22.0,52.0,92.0,15.0,Skill Surplus (Low Demand / High Supply),Reduce Course Hours / Modernize,-38.6
+SAS & SPSS,Legacy Statistics,Hard Skill,72.0,14.5,5.0,18.0,48.0,4.0,Skill Surplus (Low Demand / High Supply),Reduce Course Hours / Modernize,-57.5
+Linear Algebra & Calculus,Math & Statistics,Hard Skill,95.0,69.3,82.0,70.0,85.0,40.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-25.7
+Docker & Containerization,Infrastructure & Cloud,Hard Skill,38.0,65.7,78.0,58.0,16.0,88.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,27.7
+Data Storytelling & Visualization,Analytics & BI,Hard Skill,82.0,65.1,50.0,86.0,74.0,48.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,-16.9
+Bayesian Statistics,Math & Statistics,Hard Skill,54.0,42.8,45.0,48.0,76.0,12.0,Niche Skills (Low Demand / Low Supply),Elective Specialty Offering,-11.2
+Problem Solving & Analytical Thinking,Soft Skills,Soft Skill,85.0,92.0,92.0,95.0,90.0,88.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,7.0
+Communication & Stakeholder Translation,Soft Skills,Soft Skill,62.0,81.9,80.0,92.0,75.0,72.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,19.9
+Agile & Cross-Functional Teamwork,Soft Skills,Soft Skill,55.0,82.6,86.0,84.0,60.0,88.0,Well-Aligned (High Demand / High Supply),Maintain High Academic Standard,27.6
+Business Acumen & Value Creation,Soft Skills,Soft Skill,48.0,71.0,68.0,88.0,52.0,58.0,Skill Deficit (High Demand / Low Supply),Urgent Curriculum Upgrade Needed,23.0

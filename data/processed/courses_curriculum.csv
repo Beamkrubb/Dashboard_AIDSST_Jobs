@@ -1,0 +1,24 @@
+course_id,course_name,category,credits,core_skill,domain
+CS101,Foundations of Machine Learning,Machine Learning & AI,3,Machine Learning,AI/DS
+CS102,Deep Learning & Neural Networks,Machine Learning & AI,3,PyTorch / TensorFlow,AI
+CS103,Generative AI & LLMs (RAG),Machine Learning & AI,3,RAG & LLMs,AI
+CS104,Computer Vision & Image Processing,Machine Learning & AI,3,Computer Vision,AI
+CS105,Natural Language Processing (NLP),Machine Learning & AI,3,NLP / Transformers,AI/DS
+ST201,Linear Algebra & Vector Calculus,Math & Statistics,4,Linear Algebra,Core Math
+ST202,Probability & Mathematical Statistics,Math & Statistics,4,Statistical Inference,Stats
+ST203,Applied Regression & GLM,Math & Statistics,3,Applied Regression,Stats/DS
+ST204,Time Series Analysis & Forecasting,Math & Statistics,3,Time Series Forecasting,Stats/DS
+ST205,Multivariate Statistical Analysis,Math & Statistics,3,Multivariate Analysis,Stats
+ST206,Bayesian Methods & Modeling,Math & Statistics,3,Bayesian Statistics,Stats
+DE301,Database Systems & Advanced SQL,Data Engineering,3,SQL & Relational DBs,Data Eng/DS
+DE302,Distributed Data Systems (Spark/Hadoop),Data Engineering,3,Spark / Big Data,Data Eng
+DE303,Data Warehousing (Snowflake/BigQuery),Data Engineering,3,Cloud Data Warehouses,Data Eng
+DE304,MLOps & Continuous Deployment,Data Engineering,3,MLOps & CI/CD,AI/Data Eng
+DE305,Cloud Infrastructure (AWS/GCP/Azure),Data Engineering,3,Cloud Platforms,Data Eng
+SE401,Python for Scientific Computing,Software & Tools,3,Python Programming,Core Programming
+SE402,R Programming for Statistical Analysis,Software & Tools,3,R Programming,Stats Programming
+SE403,Data Visualization & Dashboarding (Plotly/Tableau),Software & Tools,3,Data Storytelling & Viz,DS/Analytics
+SE404,Data Structures & Algorithms,Software & Tools,4,Data Structures & OOP,Core CS
+DP501,Business Analytics & Problem Formulation,Domain & Soft Skills,3,Business Acumen,Soft Skill
+DP502,"AI Ethics, Governance & Privacy",Domain & Soft Skills,2,AI Ethics & Governance,Governance
+DP503,Industry Capstone & Agile Project,Domain & Soft Skills,6,Agile & Teamwork,Soft Skill
